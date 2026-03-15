@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handess | هندس</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="nav-container">
+        <div class="nav-tabs">
+            <button class="nav-tab active" data-page="chat">Chat</button>
+        </div>
+    </div>
+
+    <!-- Chat Page -->
+    <div class="page active" id="chatPage">
+        <div class="header">
+            <h1>Handess | هندس</h1>
+            <p>مساعدك الهندسي للامتثال التنظيمي والإنشائي في الأردن</p>
+            <p style="font-size: 0.9rem; margin-top: 5px; color: rgba(255, 255, 255, 0.7);">Your Engineering Compliance Assistant for Jordanian Regulations</p>
+        </div>
+
+        <div class="chat-container">
+            <div class="messages-container" id="messagesContainer">
+                <!-- Messages will be populated here -->
+            </div>
+            
+            <div class="typing-indicator" id="typingIndicator">
+                <span>AI is thinking</span>
+                <div class="typing-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+            
+            <div class="input-container">
+                <button class="icon-btn think-toggle" id="thinkingToggleBtn" title="Toggle AI thinking">🧠</button>
+                <input type="text" class="input-field" id="messageInput" placeholder="Type your legal question here..." maxlength="500">
+                <button class="send-btn" id="sendBtn">Submit</button>
+                <button class="clear-btn" id="clearBtn">Clear</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
