@@ -41,27 +41,7 @@ Handess solves this by architecting a strictly grounded AI pipeline that out-per
 
 * 
 **Zero-Hallucination Guardrails:** Implements strict refusal mechanisms for out-of-scope queries.
-
-
-
-## 📊 Comparative Performance
-
-Handess was tested against baseline models (GPT-4 and Gemini Pro) on real-world Jordanian engineering cases:
-
-| Scenario | General AI Result | Handess Result | Ground Truth |
-| --- | --- | --- | --- |
-| **Hospital Parking** | 108 spots (Estimate) 
-
- | <br>**259 spots (Exact)** 
-
- | <br>**259 spots** 
-
- |
-| **Educational Fire Code** | 30m (Foreign NFPA) 
-
- | <br>**45m (Jordanian Code)** 
-
- | <br>**45m** 
+  
 
 ## 🏗️ Technical Architecture
 
