@@ -262,7 +262,7 @@ def retrieve_documents(question: str):
 
 llm = ChatOpenAI(
     model="Fanar-C-2-27B",
-    api_key= "uV9lUYxdkR0KkALk1cfgSro2bviuR9cl" ,
+    api_key= "" ,
     base_url="https://api.fanar.qa/v1",
     temperature=0.1,      # Conservative: legal domain needs low randomness
     max_tokens=2500,      # Increased for complete Arabic responses
